@@ -1,6 +1,6 @@
 module github.com/grafana/grafana
 
-go 1.21
+go 1.22.0
 
 // Override docker/docker to avoid:
 // go: github.com/drone-runners/drone-runner-docker@v1.8.2 requires
@@ -50,7 +50,7 @@ require (
 	github.com/go-sourcemap/sourcemap v2.1.3+incompatible // @grafana/backend-platform
 	github.com/go-sql-driver/mysql v1.7.1 // @grafana/backend-platform
 	github.com/go-stack/stack v1.8.1 // @grafana/backend-platform
-	github.com/gobwas/glob v0.2.3 // @grafana/backend-platform
+	github.com/gobwas/glob v1.0.0 // @grafana/backend-platform
 	github.com/gofrs/uuid v4.4.0+incompatible // indirect
 	github.com/gogo/protobuf v1.3.2 // @grafana/alerting-squad-backend
 	github.com/golang/mock v1.6.0 // @grafana/alerting-squad-backend
